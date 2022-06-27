@@ -1,0 +1,103 @@
+/* all background */
+html {
+	background-color: #40404040;
+}
+
+.theme-dark {
+	/* chat background */
+	--background-primary: transparent;
+
+	/* main+guilds background */
+	--background-tertiary: transparent;
+
+	/* sidebar and guild folder background */
+	--background-secondary: transparent;
+
+	/* status and roles area background */
+	--background-secondary-alt: transparent;
+
+	/* icon background */
+	--background-accent: #00000020;
+
+	/* user popout background */
+	--background-floating: #00000090;
+
+	/* chat input box background */
+	--channeltextarea-background: #00000020;
+	
+	/* nav button selected */
+	--background-modifier-selected: #00000010;
+}
+
+/* hide top bar */
+#app-mount > div.typeWindows-2-g3UY.withFrame-2dL45i.titleBar-1it3bQ.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr {
+	display: none;
+}
+
+/* help icon draggable */
+#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > section > div.toolbar-3_r2xA > a > div > svg,
+#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.container-2cd8Mz > section > div.toolbar-3_r2xA > a > div > svg {
+	-webkit-user-select: none;
+	-webkit-app-region: drag;
+}
+
+/* member sidebar */
+#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > div.content-1jQy2l > div {
+	background-color: #00000020;
+}
+
+/* channel sidebar */
+#channels {
+	background-color: #00000020;
+}
+
+/* prevent parts of user popout from darkening twice */
+* > div > div > div.body-2wLx-E.thin-31rlnD.scrollerBase-_bVAAt > div.bodyInnerWrapper-2bQs1k,
+* > div > div > div.footer-3naVBw {
+	background-color: transparent;
+}
+
+/* make scrollbars translucent */
+.scroller-kQBbkU::-webkit-scrollbar-track {
+	background-color: rgba(0,0,0,0.3) !important;
+}
+
+/* ------------ */
+/* ------------ */
+/* ------------ */
+/* Friends Page */
+/* ------------ */
+/* ------------ */
+/* ------------ */
+
+/* hide friends search box */
+#online-tab > div.searchBar-2aylmZ.container-2oNtJn.medium-2NClDM {
+	display: none;
+}
+
+/* remove green from Add Friend button */
+#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.container-2cd8Mz > section > div.children-3xh0VB > div.tabBar-ra-EuL.topPill-3DJJNV > div:nth-child(5) {
+	background-color: unset !important;
+	color: unset !important;
+}
+
+/* remove top seach bar */
+#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.sidebar-1tnWFu > nav > div.searchBar-3TnChZ {
+	display: none;
+}
+
+/* remove nitro channel */
+#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > ul > li:nth-child(3) {
+	display: none;
+}
+
+/* make activity now details transparent */ 
+.theme-dark .inset-SbsSFp {
+	background-color: transparent;
+}
+
+/* hide friends list scrollbar */
+#online-tab > div.peopleList-2VBrVI.auto-2K3UW5.scrollerBase-_bVAAt::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
