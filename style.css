@@ -62,6 +62,11 @@ html {
 	background-color: rgba(0,0,0,0.3) !important;
 }
 
+/* remove nitro icon in server  list */
+#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > nav > div {
+	display: none;
+}
+
 /* ------------ */
 /* ------------ */
 /* ------------ */
