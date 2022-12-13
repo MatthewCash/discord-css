@@ -111,3 +111,8 @@ a[href="/store"] {
     width: 0;
     background: transparent;
 }
+
+/* hide gift button in message box */
+button[aria-label="Send a gift"] {
+    display: none;
+}
