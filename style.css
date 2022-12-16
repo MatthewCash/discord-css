@@ -127,3 +127,13 @@ html {
 .actions-YHvpIT {
     display: none !important;
 }
+
+/* hide empty active now card */
+.emptyCard-KDifrB {
+    display: none !important;
+}
+
+/* center active now title */
+.header-Imy05m {
+    display: none
+}
