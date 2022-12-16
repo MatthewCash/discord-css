@@ -119,6 +119,11 @@ button[aria-label="Send a gift"] {
 
 /* set accent color */
 html {
-	--brand-experiment: rgb(220, 134, 215) !important;
-	--brand-500: var(--brand-experiment) !important;
+    --brand-experiment: rgb(220, 134, 215) !important;
+    --brand-500: var(--brand-experiment) !important;
+}
+
+/* hide interact buttons on friends list */
+.actions-YHvpIT {
+    display: none !important;
 }
