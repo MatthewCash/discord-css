@@ -137,3 +137,8 @@ html {
 .header-Imy05m {
     display: none
 }
+
+/* remove decoration from discord logo */
+#icon > path:nth-child(n+2) {
+    display: none;
+}
