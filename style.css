@@ -142,3 +142,8 @@ html {
 #icon > path:nth-child(n+2) {
     display: none;
 }
+
+/* remove dark borders */
+.content-1jQy2l::before {
+    display: none !important;
+}
