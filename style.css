@@ -145,8 +145,12 @@ html {
 }
 
 /* remove dark borders */
-.content-1jQy2l::before {
+.content-1jQy2l::before,
+.tabBody-2dgbAs::before {
     display: none !important;
+}
+.header-3OsQeK {
+    box-shadow: none !important;
 }
 
 /* hide useless scrollbars */
