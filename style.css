@@ -41,11 +41,6 @@ html {
     -webkit-app-region: drag;
 }
 
-/* member sidebar */
-#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > div.content-1jQy2l > div {
-    background-color: #00000020;
-}
-
 /* channel sidebar */
 #channels {
     background-color: #00000020;
