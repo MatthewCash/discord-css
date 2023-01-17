@@ -41,11 +41,6 @@ html {
     -webkit-app-region: drag;
 }
 
-/* channel sidebar */
-#channels {
-    background-color: #00000020;
-}
-
 /* prevent parts of user popout from darkening twice */
 * > div > div > div.body-2wLx-E.thin-31rlnD.scrollerBase-_bVAAt > div.bodyInnerWrapper-2bQs1k,
 * > div > div > div.footer-3naVBw {
