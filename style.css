@@ -112,6 +112,7 @@ html {
     --brand-experiment: rgb(220, 134, 215) !important;
     --brand-500: var(--brand-experiment) !important;
     --brand-experiment-560: var(--brand-experiment) !important;
+    --text-link: var(--brand-experiment) !important;
 }
 
 /* hide interact buttons on friends list */
@@ -146,4 +147,9 @@ html {
 /* hide useless scrollbars */
 .managedReactiveScroller-1lEEh3 {
     overflow-y: initial !important;
+}
+
+/* changle selection color */
+*::selection {
+    background-color: rgba(220, 134, 215);
 }
