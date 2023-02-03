@@ -77,8 +77,8 @@ div.item-3mHhwr.addFriend-emTWY1.item-3XjbnG.themed-2-lozF {
 }
 
 /* remove top seach bar */
-#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.sidebar-1tnWFu > nav > div.searchBar-3TnChZ {
-    display: none;
+.searchBar-3TnChZ {
+    display: none !important;
 }
 
 /* remove snowsgiving channel */
