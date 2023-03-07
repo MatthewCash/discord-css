@@ -71,7 +71,7 @@ html {
 }
 
 /* remove green from Add Friend button */
-div.item-3mHhwr.addFriend-emTWY1.item-3XjbnG.themed-2-lozF {
+div[aria-label="Add Friend"] {
     background-color: unset !important;
     color: unset !important;
 }
@@ -97,9 +97,8 @@ a[href="/store"] {
 }
 
 /* hide friends list scrollbar */
-#online-tab > div.peopleList-2VBrVI.auto-2K3UW5.scrollerBase-_bVAAt::-webkit-scrollbar {
-    width: 0;
-    background: transparent;
+div[data-list-id="people"]::-webkit-scrollbar {
+    display: none;
 }
 
 /* hide gift button in message box */
@@ -145,7 +144,7 @@ html {
 }
 
 /* hide useless scrollbars */
-.managedReactiveScroller-1lEEh3 {
+div[data-jump-section="global"] {
     overflow-y: initial !important;
 }
 
