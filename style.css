@@ -1,3 +1,12 @@
+:root {
+    --site-hue: var(--system-hue);
+    --site-saturation: var(--system-saturation);
+    --site-lightness: var(--system-lightness);
+    --site-accent-color: hsl(var(--site-hue), var(--site-saturation), var(--site-lightness));
+    --site-accent-color-dark: hsl(var(--site-hue), var(--site-saturation), calc(var(--site-lightness) - 5%));
+    --site-accent-color-darker: hsl(var(--site-hue), var(--site-saturation), calc(var(--site-lightness) - 10%));
+}
+
 /* all background */
 html {
     background-color: #40404040;
@@ -108,10 +117,11 @@ button[aria-label="Send a gift"] {
 
 /* set accent color */
 html {
-    --brand-experiment: rgb(220, 134, 215) !important;
-    --brand-500: var(--brand-experiment) !important;
-    --brand-experiment-560: var(--brand-experiment) !important;
-    --text-link: var(--brand-experiment) !important;
+    --brand-500: var(--site-accent-color) !important;
+    --brand-experiment-560: var(--site-accent-color) !important;
+    --text-link: var(--site-accent-color) !important;
+    --text-positive: var(--site-accent-color);
+    --green-360: var(--site-accent-color);
 }
 
 /* hide interact buttons on friends list */
@@ -150,7 +160,7 @@ div[data-jump-section="global"] {
 
 /* changle selection color */
 *::selection {
-    background-color: rgba(220, 134, 215);
+    background-color: var(--site-accent-color-dark);
 }
 
 /* remote Follow button background */
