@@ -179,3 +179,8 @@ div[data-jump-section="global"] {
     width: 0 !important;
     background: transparent !important;
 }
+
+/* remove background from forums */
+.container-3wLKDe, .textContentFooter-2JnNv8, section[aria-label="Channel header"] {
+    background: transparent !important;
+}
