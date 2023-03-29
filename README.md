@@ -1,0 +1,14 @@
+# discord-css
+
+Some CSS changes to Discord
+
+This is meant for use with an electron web client and consequently uses some webkit-specific selectors!
+
+## Primary Objectives
+
+1. Remove backgrounds to allow transparency (needs electron transparency enabled)
+2. Change Discord's branding color
+
+## Installation
+
+🤷 depends on your client and its ability to inject stylesheets
