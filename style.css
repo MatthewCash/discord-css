@@ -122,6 +122,8 @@ html {
     --text-link: var(--site-accent-color) !important;
     --text-positive: var(--site-accent-color);
     --green-360: var(--site-accent-color);
+    --mention-background: var(--site-accent-color);
+    --mention-foreground: white;
 }
 
 /* hide interact buttons on friends list */
