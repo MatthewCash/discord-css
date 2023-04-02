@@ -194,3 +194,8 @@ div[data-jump-section="global"] {
 .container-3wLKDe, .textContentFooter-2JnNv8, section[aria-label="Channel header"] {
     background: transparent !important;
 }
+
+/* remove browse channel background */
+.theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB, .theme-dark .container-1um7CU {
+    background-color: unset !important;
+}
