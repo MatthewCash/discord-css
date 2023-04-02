@@ -170,6 +170,14 @@ div[data-jump-section="global"] {
     background-color: unset !important;
 }
 
+/* remove black background from vc */
+.callContainer-HtHELf {
+    background: transparent !important;
+}
+.divider-2keupe {
+    background: unset !important;
+}
+
 /* remove black background from stages */
 .callContainer-BGIngG, .scroller-35tvpe, .rowContainer-jDvyA4, .participants-3hk3ND, .participants-3hk3ND > div, .avatar-rC0Atp {
     background: transparent !important;
