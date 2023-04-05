@@ -118,7 +118,9 @@ button[aria-label="Send a gift"] {
 /* set accent color */
 html {
     --brand-500: var(--site-accent-color) !important;
+    --brand-experiment-360: var(--site-accent-color) !important;
     --brand-experiment-560: var(--site-accent-color) !important;
+    --brand-experiment-600: var(--site-accent-color-darker) !important;
     --text-link: var(--site-accent-color) !important;
     --text-positive: var(--site-accent-color);
     --green-360: var(--site-accent-color);
