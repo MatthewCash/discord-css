@@ -201,3 +201,11 @@ div[data-jump-section="global"] {
 .theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB, .theme-dark .container-1um7CU {
     background-color: unset !important;
 }
+
+/* remove separators from friends list */
+.peopleListItem-u6dGxF {
+    border: none !important;
+}
+.scroller-hE2gWq {
+    border: none !important;
+}
