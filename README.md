@@ -12,3 +12,5 @@ This is meant for use with an electron web client and consequently uses some web
 ## Installation
 
 🤷 depends on your client and its ability to inject stylesheets
+
+[style.css](style.css) is the entrypoint, it will load all of the stylesheets in `css`

@@ -1,0 +1,59 @@
+/* hide friends search box */
+#online-tab > div.searchBar-2aylmZ.container-2oNtJn.medium-2NClDM {
+    display: none;
+}
+
+/* remove nitro channel */
+a[href="/store"] {
+    display: none;
+}
+
+/* remove green from Add Friend button */
+div[aria-label="Add Friend"] {
+    background-color: unset !important;
+    color: unset !important;
+}
+
+/* remove top seach bar */
+.searchBar-3TnChZ {
+    display: none !important;
+}
+
+/* hide interact buttons on friends list */
+.actions-YHvpIT {
+    display: none !important;
+}
+
+/* hide empty active now card */
+.emptyCard-KDifrB {
+    display: none !important;
+}
+
+/* center active now title */
+.header-Imy05m {
+    display: none
+}
+
+/* remove Follow button background */
+.followButton-1N-GGp {
+    background-color: unset !important;
+}
+
+/* remove separators from friends list */
+.peopleListItem-u6dGxF {
+    border: none !important;
+}
+
+.scroller-hE2gWq {
+    border: none !important;
+}
+
+/* make activity now details transparent */
+.theme-dark .inset-SbsSFp {
+    background-color: transparent;
+}
+
+/* hide friends list scrollbar */
+div[data-list-id="people"]::-webkit-scrollbar {
+    display: none;
+}

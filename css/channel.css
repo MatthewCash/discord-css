@@ -1,0 +1,17 @@
+/* remove browse channel background */
+.theme-dark.container-2IKOsH,
+.theme-dark.header-3xB4vB,
+.theme-dark.container-1um7CU {
+    background-color: unset !important;
+}
+
+/* hide gift button in message box */
+button[aria-label="Send a gift"] {
+    display: none;
+}
+
+/* prevent parts of user popout from darkening twice */
+div > div > div.body-2wLx-E.thin-31rlnD.scrollerBase-_bVAAt > div.bodyInnerWrapper-2bQs1k,
+div > div > div.footer-3naVBw {
+    background-color: transparent;
+}
