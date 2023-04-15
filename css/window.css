@@ -70,3 +70,8 @@ div[data-jump-section="global"] {
 *::selection {
     background-color: var(--site-accent-color-dark);
 }
+
+/* change update icon color */
+.updateIconForeground-2V_zo4 {
+    fill: var(--site-accent-color) !important;
+}
