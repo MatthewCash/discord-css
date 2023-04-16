@@ -75,3 +75,8 @@ div[data-jump-section="global"] {
 .updateIconForeground-2V_zo4 {
     fill: var(--site-accent-color) !important;
 }
+
+/* hide nitro feature popups */
+.contentPremium-_Y0-cX {
+    display: none !important;
+}
