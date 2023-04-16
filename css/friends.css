@@ -57,3 +57,8 @@ div[aria-label="Add Friend"] {
 div[data-list-id="people"]::-webkit-scrollbar {
     display: none;
 }
+
+/* remove avatar decoration */
+.avatarDecoration-2Wb1Au, .avatarDecoration-34OC0G {
+    display: none;
+}
