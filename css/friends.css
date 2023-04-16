@@ -62,3 +62,8 @@ div[data-list-id="people"]::-webkit-scrollbar {
 .avatarDecoration-2Wb1Au, .avatarDecoration-34OC0G {
     display: none;
 }
+
+/* remove list count label */
+.peopleColumn-1wMU14 .title-x4dI75 {
+    display: none;
+}
