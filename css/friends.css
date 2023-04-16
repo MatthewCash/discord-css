@@ -8,6 +8,11 @@ a[href="/store"] {
     display: none;
 }
 
+/* remove Friends channel when selected */
+.selected-26oxtA > a[href="/channels/@me"] {
+    display: none;
+}
+
 /* remove green from Add Friend button */
 div[aria-label="Add Friend"] {
     background-color: unset !important;
