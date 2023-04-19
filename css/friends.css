@@ -13,6 +13,11 @@ a[href="/store"] {
     display: none;
 }
 
+/* remove direct messages list header */
+.privateChannelsHeaderContainer-1UWASm {
+    display: none !important;
+}
+
 /* remove green from Add Friend button */
 div[aria-label="Add Friend"] {
     background-color: unset !important;
