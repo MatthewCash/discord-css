@@ -1,8 +1,8 @@
 /* remove browse channel background */
-.theme-dark.container-2IKOsH,
-.theme-dark.header-3xB4vB,
-.theme-dark.container-1um7CU {
-    background-color: unset !important;
+.container-2IKOsH,
+.header-3xB4vB,
+.container-1um7CU {
+    background-color: transparent !important;
 }
 
 /* hide gift button in message box */
