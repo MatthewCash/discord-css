@@ -85,3 +85,11 @@ div[data-list-id="people"]::-webkit-scrollbar {
 :is(.avatar-1HDIsL > div, .avatar-2MSPKk) svg rect[fill="black"] {
     display: none;
 }
+
+/* hide offline status icons */
+div[role="img"][aria-label$=", Offline"] rect {
+    display: none;
+}
+div[role="img"][aria-label$=", Offline"] foreignObject {
+    mask: url(#svg-mask-avatar-default);
+}
