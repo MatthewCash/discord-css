@@ -77,3 +77,11 @@ div[data-list-id="people"]::-webkit-scrollbar {
 .peopleColumn-1wMU14 .title-x4dI75 {
     display: none;
 }
+
+/* make all status icons round */
+:is(.avatar-1HDIsL > div, .avatar-2MSPKk) > svg > rect:not([mask="url(#svg-mask-status-online-mobile)"]) {
+    mask: url(#svg-mask-status-online);
+}
+:is(.avatar-1HDIsL > div, .avatar-2MSPKk) svg rect[fill="black"] {
+    display: none;
+}
