@@ -80,3 +80,8 @@ div[data-jump-section="global"] {
 .contentPremium-_Y0-cX {
     display: none !important;
 }
+
+/* hide nitro banners */
+.colorPremium-1VK7r6 {
+    display: none;
+}
