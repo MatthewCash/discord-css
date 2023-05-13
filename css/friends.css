@@ -79,11 +79,18 @@ div[data-list-id="people"]::-webkit-scrollbar {
 }
 
 /* make all status icons round */
-:is(.avatar-1HDIsL > div, .avatar-2MSPKk) > svg > rect:not([mask="url(#svg-mask-status-online-mobile)"]) {
-    mask: url(#svg-mask-status-online);
-}
-:is(.avatar-1HDIsL > div, .avatar-2MSPKk) svg rect[fill="black"] {
-    display: none;
+.avatarHoverTarget-1zzfRL > div,
+.avatar-1HDIsL > div,
+.avatar-6qzftW > div,
+.avatar-1EWyVD,
+.avatar-2MSPKk {
+    > svg > rect:not([mask="url(#svg-mask-status-online-mobile)"]) {
+        width: 15 !important;
+        mask: url(#svg-mask-status-online);
+    }
+    & svg rect[fill="black"] {
+        display: none;
+    }
 }
 
 /* hide offline status icons */
