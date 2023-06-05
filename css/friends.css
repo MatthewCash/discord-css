@@ -13,6 +13,11 @@ a[href="/store"] {
     display: none;
 }
 
+/* remove Discord birthday channel */
+a[href="/activities"] {
+    display: none;
+}
+
 /* remove direct messages list header */
 .privateChannelsHeaderContainer-1UWASm {
     display: none !important;
