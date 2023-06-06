@@ -2,7 +2,11 @@
 
 Some CSS changes to Discord
 
-This is meant for use with an electron web client and consequently uses some webkit-specific selectors!
+> **Warning**
+> CSS Nesting is used, which requires Chromium >= 112 provided by Electron >= 24
+
+> **Note**
+> This is meant for use with an electron web client and consequently uses some webkit-specific selectors!
 
 ## Primary Objectives
 
