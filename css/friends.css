@@ -99,9 +99,11 @@ div[data-list-id="people"]::-webkit-scrollbar {
 }
 
 /* hide offline status icons */
-div[role="img"][aria-label$=", Offline"] rect {
-    display: none;
-}
-div[role="img"][aria-label$=", Offline"] foreignObject {
-    mask: url(#svg-mask-avatar-default);
+div[role="img"][aria-label$=", Offline"] {
+    & rect {
+        display: none;
+    }
+    & foreignObject {
+        mask: url(#svg-mask-avatar-default);
+    }
 }
