@@ -4,7 +4,9 @@ html {
 
 /* set accent color */
 html {
+    --brand-460: var(--site-accent-color) !important;
     --brand-500: var(--site-accent-color) !important;
+    --brand-560: var(--site-accent-color) !important;
     --brand-experiment-360: var(--site-accent-color) !important;
     --brand-experiment-560: var(--site-accent-color) !important;
     --brand-experiment-600: var(--site-accent-color-darker) !important;
