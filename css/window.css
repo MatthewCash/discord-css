@@ -12,7 +12,7 @@ html {
     --brand-experiment-600: var(--site-accent-color-darker) !important;
     --text-link: var(--site-accent-color) !important;
     --text-positive: var(--site-accent-color);
-    --green-360: var(--site-accent-color);
+    --green-360: var(--site-accent-color) !important;
     --mention-background: var(--site-accent-color);
     --mention-foreground: white;
 }
