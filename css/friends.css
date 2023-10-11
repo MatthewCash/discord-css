@@ -18,6 +18,11 @@ a[href="/activities"] {
     display: none;
 }
 
+/* remove Shop channel */
+a[href="/shop"] {
+    display: none;
+}
+
 /* remove direct messages list header */
 .privateChannelsHeaderContainer-1UWASm {
     display: none !important;
