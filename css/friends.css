@@ -1,5 +1,5 @@
 /* hide friends search box */
-#online-tab > div.searchBar-2aylmZ.container-2oNtJn.medium-2NClDM {
+#online-tab > .searchBar_ff8800 {
     display: none;
 }
 
@@ -9,12 +9,7 @@ a[href="/store"] {
 }
 
 /* remove Friends channel when selected */
-.selected-26oxtA > a[href="/channels/@me"] {
-    display: none;
-}
-
-/* remove Discord birthday channel */
-a[href="/activities"] {
+.selected_d94cf9 > a[href="/channels/@me"] {
     display: none;
 }
 
@@ -24,7 +19,7 @@ a[href="/shop"] {
 }
 
 /* remove direct messages list header */
-.privateChannelsHeaderContainer-1UWASm {
+.privateChannelsHeaderContainer_ddcec6 {
     display: none !important;
 }
 
@@ -35,22 +30,22 @@ div[aria-label="Add Friend"] {
 }
 
 /* remove top seach bar */
-.searchBar-3TnChZ {
+.searchBar_e4ea2a {
     display: none !important;
 }
 
 /* hide interact buttons on friends list */
-.actions-YHvpIT {
+.actions_c08157 {
     display: none !important;
 }
 
 /* hide empty active now card */
-.emptyCard-KDifrB {
+.emptyCard_f82dde {
     display: none !important;
 }
 
-/* center active now title */
-.header-Imy05m {
+/* remove active now title */
+.header__123bf {
     display: none
 }
 
@@ -60,16 +55,16 @@ div[aria-label="Add Friend"] {
 }
 
 /* remove separators from friends list */
-.peopleListItem-u6dGxF {
+.peopleListItem_d14722 {
     border: none !important;
 }
 
-.scroller-hE2gWq {
+.scroller__00e7e {
     border: none !important;
 }
 
 /* make activity now details transparent */
-.theme-dark .inset-SbsSFp {
+.theme-dark .inset__0bfb3 {
     background-color: transparent;
 }
 

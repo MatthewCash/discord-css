@@ -15,6 +15,7 @@ html {
     --green-360: var(--site-accent-color) !important;
     --mention-background: var(--site-accent-color);
     --mention-foreground: white;
+    --profile-body-background-color: transparent !important;
 }
 
 .theme-dark {
