@@ -1,6 +1,12 @@
 /* remove black background from vc */
-.callContainer-HtHELf {
+.callContainer_cbde45 {
     background: transparent !important;
+}
+
+/* remove black gradient from vc */
+.gradientContainer__9a5a6,
+.gradientBottom__19035 {
+    background-image: unset !important;
 }
 
 .divider-2keupe {
