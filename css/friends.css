@@ -74,8 +74,8 @@ div[data-list-id="people"]::-webkit-scrollbar {
 }
 
 /* remove avatar decoration */
-.avatarDecoration-2Wb1Au, .avatarDecoration-34OC0G {
-    display: none;
+.avatarDecoration_ae35e3 {
+    display: none !important;
 }
 
 /* remove list count label */
