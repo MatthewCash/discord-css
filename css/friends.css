@@ -79,11 +79,10 @@ div[data-list-id="people"]::-webkit-scrollbar {
 }
 
 /* remove list count label */
-.peopleColumn-1wMU14 .title-x4dI75 {
+.peopleColumn__51df3 .sectionTitle__69d2d {
     display: none;
 }
-
-/* make all status icons round */
+/*
 .avatarHoverTarget-1zzfRL > div,
 .avatar-1HDIsL > div,
 .avatar-6qzftW > div,
