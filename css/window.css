@@ -55,12 +55,11 @@ html {
 }
 
 /* remove dark borders */
-.content-1jQy2l::before,
-.tabBody-2dgbAs::before {
+.content__1a4fe::before,
+.tabBody_b3d268::before {
     display: none !important;
 }
-
-.header-3OsQeK {
+.header__104ca {
     box-shadow: none !important;
 }
 
