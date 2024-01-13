@@ -24,3 +24,8 @@ button[aria-label="Send a gift"] {
 .container-34SFyU {
     display: none;
 }
+
+/* mentioned message */
+.mentioned__58017::before {
+    background-color: var(--site-accent-color) !important;
+}
