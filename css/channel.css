@@ -16,7 +16,7 @@ button[aria-label="Send a gift"] {
 }
 
 /* remove members list background */
-.container_df3aa0, .page__0b66e, .container_b181b6 {
+.container__037ed, .content__4bf10 > .page__0b66e, .container__11d72 {
     background-color: transparent !important;
 }
 
