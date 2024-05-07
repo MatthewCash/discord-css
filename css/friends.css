@@ -9,7 +9,7 @@ a[href="/store"] {
 }
 
 /* remove Friends channel when selected */
-.selected_d94cf9 > a[href="/channels/@me"] {
+.selected__37292 > a[href="/channels/@me"] {
     display: none;
 }
 
