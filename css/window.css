@@ -57,8 +57,8 @@ a[href="https://support.discord.com"]
 }
 
 /* make scrollbars translucent */
-.scroller-kQBbkU::-webkit-scrollbar-track {
-    background-color: rgba(0, 0, 0, 0.3) !important;
+.scroller-kQBbkU {
+    scrollbar-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 /* remove dark borders */
