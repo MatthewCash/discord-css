@@ -77,8 +77,12 @@ div[aria-label="Add Friend"] {
 }
 
 /* hide friends list scrollbar */
-div[data-list-id="people"]::-webkit-scrollbar {
-    display: none;
+div[data-list-id='people-list'] {
+    scrollbar-width: none;
+}
+
+div[data-list-id='people']::-webkit-scrollbar {
+    width: 0 !important;
 }
 
 /* remove avatar decoration */
