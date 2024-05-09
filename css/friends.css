@@ -63,6 +63,14 @@ div[aria-label="Add Friend"] {
     border: none !important;
 }
 
+.itemCard_b64118 {
+    border-width: 0 !important;
+}
+
+.separator_fc3370 {
+    display: none;
+}
+
 /* make activity now details transparent */
 .theme-dark .inset__0bfb3 {
     background-color: transparent;
