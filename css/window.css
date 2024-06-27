@@ -73,7 +73,7 @@ a[href="https://support.discord.com"]
 
 /* remove dark borders */
 .content__01e65::before,
-.tabBody_a90ea8::before {
+.tabBody_c2739c::before {
     display: none !important;
 }
 
