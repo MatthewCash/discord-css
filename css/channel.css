@@ -28,7 +28,7 @@ button[aria-label='Send a gift'] {
 }
 
 /* mentioned message */
-.mentioned_fa6fd2::before {
+.mentioned_d5deea::before {
     background-color: var(--site-accent-color) !important;
 }
 
