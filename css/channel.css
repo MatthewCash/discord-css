@@ -33,7 +33,7 @@ button[aria-label='Send a gift'] {
 }
 
 /* change name color */
-.memberInner__4dac6:has(img[src^="https://cdn.discordapp.com/avatars/192035055584018435"]) .username__4a6f7
+.memberInner_a31c43:has(img[src^="https://cdn.discordapp.com/avatars/192035055584018435"]) .username_de3235
 {
     color: #c0a962 !important;
 }
