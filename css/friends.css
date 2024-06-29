@@ -72,7 +72,8 @@ div[aria-label='Add Friend'] {
 }
 
 /* make activity now details transparent */
-.theme-dark .inset__61d5b {
+.itemCard_f02fcf,
+.theme-dark .inset_c0f6a6 {
     background-color: transparent;
 }
 
