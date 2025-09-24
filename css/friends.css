@@ -40,7 +40,8 @@ div[aria-label='Add Friend'] {
 }
 
 /* hide empty active now card */
-.emptyCard__7e549 {
+.emptyCard__7e549,
+.inset_bf1984 {
     display: none !important;
 }
 
