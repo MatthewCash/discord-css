@@ -26,38 +26,36 @@ html {
         var(--site-lightness),
         0.3
     ) !important;
-    --profile-body-background-color: transparent !important;
 }
 
-.theme-dark {
-    /* chat background */
-    --background-primary: transparent;
-
-    /* main+guilds background */
-    --background-tertiary: transparent;
-
-    /* sidebar and guild folder background */
-    --background-secondary: transparent;
-
-    /* status and roles area background */
-    --background-secondary-alt: transparent;
-
-    /* icon background */
-    --background-accent: #00000020;
-
-    /* user popout background */
-    --background-floating: #00000090;
-
-    /* chat input box background */
-    --channeltextarea-background: #00000020;
-
-    /* nav button selected */
-    --background-modifier-selected: #00000010;
+* {
+    --background-secondary: transparent !important;
+    --background-tertiary: transparent !important;
+    --bg-base-tertiary: transparent !important;
+    --bg-overlay-chat: transparent !important;
+    --bg-overlay-floating: transparent !important;
+    --bg-overlay-app-frame: transparent !important;
+    --background-surface-high: transparent !important;
+    --background-base-low: transparent !important;
+    --background-base-lower: transparent !important;
+    --background-base-lowest: transparent !important;
+    --bg-overlay-2: transparent !important;
 }
 
 /* hide top bar */
-.titleBar__421ed {
-    display: none;
+.bar_c38106 {
+    display: none !important;
+}
+.base_c48ade {
+    grid-template-rows: unset !important;
+}
+
+.sidebarListRounded_c48ade {
+    backdrop-filter: unset !important;
+}
+
+.app_a3002d {
+    color: transparent !important;
 }
 
 /* remove help button */
