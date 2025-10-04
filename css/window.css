@@ -40,6 +40,7 @@ html {
     --background-base-lower: transparent !important;
     --background-base-lowest: transparent !important;
     --bg-overlay-2: transparent !important;
+    --chat-background-default: rgba(0, 0, 0, 0.1) !important;
 }
 
 /* hide top bar */
