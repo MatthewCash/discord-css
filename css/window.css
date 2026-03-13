@@ -106,6 +106,6 @@ div[data-jump-section='global'] {
 }
 
 /* hide reward ad */
-.wrapper_c721cc {
+div:has(> div > div > .rewardHighlightWrapper__8c034) {
     display: none !important;
 }
