@@ -106,6 +106,7 @@ div[data-jump-section='global'] {
 }
 
 /* hide reward ad */
-div:has(> div > div > .rewardHighlightWrapper__8c034) {
+div:has(> div > div > .rewardHighlightWrapper__8c034),
+div:has(> div.coachmarkContainer_f48e1f) {
     display: none !important;
 }
